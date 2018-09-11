@@ -14,8 +14,8 @@
   Then alert your name using dot notation.
 */
 
-//Code here
-
+var me = {name: 'Tim', age: 25,}
+me.name;
 
 
 ////////// PROBLEM 2 //////////
@@ -26,7 +26,14 @@
 */
 
 //Code here
-
+var favoriteThings = {
+  band: 'dog',
+  food: 'fish',
+  person: 'wife',
+  book: 'hatchet',
+  movie: 'Longest yard',
+  holiday: "Christmas",
+}
 
 
 /*
@@ -34,16 +41,17 @@
 */
 
 //Code here
-
+favoriteThings.car = "VW";
+favoriteThings.brand = "nike";
 
 
 /*
   Now change the value of the food key in your favoriteThings object to be 'Chicken Nuggets' and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
-//Code here
 
-
+favoriteThings.food = 'Chicken Nuggets';
+favoriteThings.book = 'Harry Potter';
 
 ////////// PROBLEM 3 //////////
 
@@ -56,15 +64,16 @@
 */
 
 //Code here
-
-
-
+var backPack = {};
+var item = "firstPocket";
+backPack[item]= "chapstick";
+backPack.color = "gray";
 /*
   After you do the above, alert your entire backPack object.
 */
 
 //Code here
-
+backPack;
 
 
 /*
@@ -74,7 +83,7 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
 //Code here
-
+console.log(backPack);
 
 
 ////////// PROBLEM 4 //////////
@@ -97,7 +106,8 @@ var user2 = {
 */
 
 //Code Here
-
+user2.name = "Tyler S. McGinnis";
+user2.email = 'tyler.mcginnis@devmounta.in';
 
 
 
